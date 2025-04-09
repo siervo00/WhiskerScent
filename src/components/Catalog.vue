@@ -69,7 +69,7 @@
 import { useRouter } from 'vue-router'
 import { ref, watch } from 'vue'
 import { gql } from '@apollo/client/core'
-import { apolloClient } from '../apollo/client.ts'
+import { apolloClient } from '../apollo/client'
 
 const router = useRouter()
 
